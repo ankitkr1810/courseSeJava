@@ -61,7 +61,7 @@
   <!-- profiles -->
   <profiles>
     <profile>
-      <id>local</id>
+      <id>firefox_local</id>
       <properties>
         <env>local</env>
         <user.username></user.username>
@@ -69,7 +69,7 @@
         <grid2.hub></grid2.hub>
         <site.url>http://localhost/</site.url>
         <browser.name>firefox</browser.name>
-        <browser.version></browser.version>
+        <browser.version>44</browser.version>
         <browser.platform></browser.platform>
       </properties>
       <activation>
