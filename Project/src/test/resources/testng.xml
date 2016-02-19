@@ -4,7 +4,8 @@
 	<test name="Test1">
 		<parameter name="path" value="/"/>
 		<classes>
-		    <class name="hb.tests.Login"/>
+		    <class name="hb.tests.Login"></class>
+		    <class name="hb.tests.Film"></class>
 		</classes>
 	</test>  
 </suite>

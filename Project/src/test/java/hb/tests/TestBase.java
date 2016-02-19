@@ -2,6 +2,9 @@ package hb.tests;
 
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
@@ -19,11 +22,33 @@ import hb.tests.util.PropertyLoader;
  */
 public class TestBase {
 	protected WebDriver driver;
-
 	protected String gridHubUrl;
-
 	protected String baseUrl;
-
+	private boolean acceptNextAlert = true;
+	
+	private boolean isElementPresent(By by) {
+		    try {
+		      driver.findElement(by);
+		      return true;
+		    } catch (NoSuchElementException e) {
+		      return false;
+		    }
+		  }
+	private String closeAlertAndGetItsText() {
+		    try {
+		      Alert alert = driver.switchTo().alert();
+		      String alertText = alert.getText();
+		      if (acceptNextAlert) {
+		        alert.accept();
+		      } else {
+		        alert.dismiss();
+		      }
+		      return alertText;
+		    } finally {
+		      acceptNextAlert = true;
+		    }
+		  }
+	
 	@BeforeClass
 	public void init() {
 
