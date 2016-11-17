@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/courseSeJava.iml" filepath="$PROJECT_DIR$/.idea/modules/courseSeJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/courseSeJava_main.iml" filepath="$PROJECT_DIR$/.idea/modules/courseSeJava_main.iml" group="courseSeJava" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/courseSeJava_test.iml" filepath="$PROJECT_DIR$/.idea/modules/courseSeJava_test.iml" group="courseSeJava" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/src.iml" filepath="$PROJECT_DIR$/.idea/modules/src/src.iml" group="src" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/test/test.iml" filepath="$PROJECT_DIR$/.idea/modules/src/test/test.iml" group="src/test" />
+    </modules>
+  </component>
+</project>
