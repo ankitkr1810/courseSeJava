@@ -2,6 +2,7 @@
 
         import org.apache.commons.lang3.text.WordUtils;
         import org.junit.After;
+        import org.junit.Assert;
         import org.junit.Before;
         import org.junit.Test;
         import org.openqa.selenium.By;
@@ -48,7 +49,7 @@
         driver.findElement(By.name("login")).click();
         wait.until(visibilityOfElementLocated(By.id("sidebar")));
     }*/
-    @Test
+  /*  @Test
     public void mySecondTest() {
         driver.navigate().to("http://localhost/litecart/admin/");
         driver.findElement(By.name("username")).sendKeys("admin");
@@ -74,7 +75,7 @@
             System.out.println("Вложенных = " + j);
             if (j == 0) {
                 item = driver.findElement(By.xpath("//ul[@id='box-apps-menu']/li[" + n + "]"));
-                wait.until(visibilityOfElementLocated(By.xpath(".//*[@id='content']/h1")));
+                wait.until(visibilityOfElementLocated(By.xpath("./*//*[@id='content']/h1")));
             }
             if (j > 0) {
                 for (int m=1; m<=j; m++) {
@@ -83,7 +84,21 @@
                 }
             }
         }
+    }*/
+    @Test
+    public void Test8() {
+        driver.navigate().to("http://localhost/litecart/");
+        wait.until(visibilityOfElementLocated(By.id("box-logotypes")));
+        List<WebElement> Ducks = driver.findElements(By.cssSelector("div[class*='image-wrapper']"));
+        System.out.println("Ducks: " + Ducks.size());
+        for(WebElement Duck: Ducks){
+            List<WebElement> stickers = Duck.findElements(By.cssSelector("div[class*='sticker']"));
+            System.out.println("Duck: " + Duck + " found stickers: " + stickers.size());
+            Assert.assertTrue(stickers.size()==1);
+        }
+
     }
+
     @After
     public void stop() {
         //driver.quit();

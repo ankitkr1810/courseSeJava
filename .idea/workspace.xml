@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2befc5b6-ac30-4f3f-a487-a173e5a3947f" name="Default" comment="">
+    <list default="true" id="2befc5b6-ac30-4f3f-a487-a173e5a3947f" name="Default" comment="login test">
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/src/test/test.iml" afterPath="$PROJECT_DIR$/.idea/modules/src/test/test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/classes/ru.sd.tests.seljava.FirstTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/classes/ru.sd.tests.seljava.FirstTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/packages/ru.sd.tests.seljava.html" afterPath="$PROJECT_DIR$/build/reports/tests/packages/ru.sd.tests.seljava.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/TEST-ru.sd.tests.seljava.FirstTest.xml" afterPath="$PROJECT_DIR$/build/test-results/TEST-ru.sd.tests.seljava.FirstTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java" />
     </list>
     <ignored path="courseSeJava.iws" />
@@ -161,8 +151,8 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+            <state relative-caret-position="175">
+              <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -967,22 +957,17 @@
       <option name="project" value="LOCAL" />
       <updated>1479496713085</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="login test">
+      <created>1480263144930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1480263144930</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="courseSeJava_[test] - 2016.11.27 at 20h 12m 12s.xml">
-      <configuration name="courseSeJava [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="courseSeJava_[test] - 2016.11.27 at 20h 12m 51s.xml">
-      <configuration name="courseSeJava [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="courseSeJava_[test] - 2016.11.27 at 20h 44m 48s.xml">
-      <configuration name="courseSeJava [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="courseSeJava_[test] - 2016.11.27 at 20h 47m 54s.xml">
-      <configuration name="courseSeJava [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="courseSeJava_[test] - 2016.11.27 at 20h 52m 57s.xml">
       <configuration name="courseSeJava [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -1001,6 +986,18 @@
     <history-entry file="courseSeJava_[test] - 2016.11.27 at 21h 11m 36s.xml">
       <configuration name="courseSeJava [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="courseSeJava_[test] - 2016.11.27 at 23h 31m 38s.xml">
+      <configuration name="courseSeJava [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="courseSeJava_[test] - 2016.11.27 at 23h 35m 38s.xml">
+      <configuration name="courseSeJava [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="courseSeJava_[test] - 2016.11.27 at 23h 40m 22s.xml">
+      <configuration name="courseSeJava [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="courseSeJava_[test] - 2016.11.27 at 23h 40m 43s.xml">
+      <configuration name="courseSeJava [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
@@ -1012,7 +1009,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47483587" sideWeight="0.517094" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47483587" sideWeight="0.48290598" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41466084" sideWeight="0.48290598" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.026709402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1245,8 +1242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        <state relative-caret-position="175">
+          <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
