@@ -149,13 +149,13 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="140" column="100" lean-forward="false" selection-start-line="140" selection-start-column="100" selection-end-line="140" selection-end-column="100" />
+            <state relative-caret-position="475">
+              <caret line="174" column="51" lean-forward="true" selection-start-line="174" selection-start-column="51" selection-end-line="174" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5006#5014#0" expanded="true" />
-                <element signature="e#5124#5133#0" expanded="true" />
-                <element signature="e#6560#6568#0" expanded="true" />
+                <element signature="method#start#0;class#FirstTest#0" expanded="false" />
+                <element signature="e#8848#8856#0" expanded="true" />
+                <marker date="1480445427890" expanded="false" signature="4327:7622" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -942,25 +942,17 @@
       <option name="project" value="LOCAL" />
       <updated>1480361037730</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="countries">
+      <created>1480441764935</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1480441764935</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2016.11.29 at 00h 15m 53s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest - 2016.11.29 at 00h 17m 37s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest - 2016.11.29 at 00h 19m 38s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest - 2016.11.29 at 00h 20m 39s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest - 2016.11.29 at 00h 23m 08s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstTest - 2016.11.29 at 21h 09m 52s.xml">
       <configuration name="FirstTest" configurationId="JUnit" />
     </history-entry>
@@ -974,6 +966,21 @@
       <configuration name="FirstTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FirstTest - 2016.11.29 at 22h 41m 54s.xml">
+      <configuration name="FirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest - 2016.11.29 at 23h 37m 44s.xml">
+      <configuration name="FirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest - 2016.11.29 at 23h 38m 29s.xml">
+      <configuration name="FirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest - 2016.11.29 at 23h 43m 28s.xml">
+      <configuration name="FirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest - 2016.11.29 at 23h 44m 57s.xml">
+      <configuration name="FirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest - 2016.11.29 at 23h 51m 35s.xml">
       <configuration name="FirstTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1053,7 +1060,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GradleRunConfiguration">
@@ -1076,9 +1083,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5006#5014#0" expanded="true" />
-            <element signature="e#5124#5133#0" expanded="true" />
-            <element signature="e#6560#6568#0" expanded="true" />
+            <element signature="method#start#0;class#FirstTest#0" expanded="false" />
+            <element signature="e#8848#8856#0" expanded="true" />
+            <marker date="1480445427890" expanded="false" signature="4327:7622" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1097,9 +1104,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5006#5014#0" expanded="true" />
-            <element signature="e#5124#5133#0" expanded="true" />
-            <element signature="e#6560#6568#0" expanded="true" />
+            <element signature="method#start#0;class#FirstTest#0" expanded="false" />
+            <element signature="e#8848#8856#0" expanded="true" />
+            <marker date="1480445427890" expanded="false" signature="4327:7622" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1118,9 +1125,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5006#5014#0" expanded="true" />
-            <element signature="e#5124#5133#0" expanded="true" />
-            <element signature="e#6560#6568#0" expanded="true" />
+            <element signature="method#start#0;class#FirstTest#0" expanded="false" />
+            <element signature="e#8848#8856#0" expanded="true" />
+            <marker date="1480445427890" expanded="false" signature="4327:7622" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1139,9 +1146,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5006#5014#0" expanded="true" />
-            <element signature="e#5124#5133#0" expanded="true" />
-            <element signature="e#6560#6568#0" expanded="true" />
+            <element signature="method#start#0;class#FirstTest#0" expanded="false" />
+            <element signature="e#8848#8856#0" expanded="true" />
+            <marker date="1480445427890" expanded="false" signature="4327:7622" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1160,9 +1167,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5006#5014#0" expanded="true" />
-            <element signature="e#5124#5133#0" expanded="true" />
-            <element signature="e#6560#6568#0" expanded="true" />
+            <element signature="method#start#0;class#FirstTest#0" expanded="false" />
+            <element signature="e#8848#8856#0" expanded="true" />
+            <marker date="1480445427890" expanded="false" signature="4327:7622" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1181,9 +1188,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5006#5014#0" expanded="true" />
-            <element signature="e#5124#5133#0" expanded="true" />
-            <element signature="e#6560#6568#0" expanded="true" />
+            <element signature="method#start#0;class#FirstTest#0" expanded="false" />
+            <element signature="e#8848#8856#0" expanded="true" />
+            <marker date="1480445427890" expanded="false" signature="4327:7622" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1202,9 +1209,9 @@
           <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5006#5014#0" expanded="true" />
-            <element signature="e#5124#5133#0" expanded="true" />
-            <element signature="e#6560#6568#0" expanded="true" />
+            <element signature="method#start#0;class#FirstTest#0" expanded="false" />
+            <element signature="e#8848#8856#0" expanded="true" />
+            <marker date="1480445427890" expanded="false" signature="4327:7622" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1223,9 +1230,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5006#5014#0" expanded="true" />
-            <element signature="e#5124#5133#0" expanded="true" />
-            <element signature="e#6560#6568#0" expanded="true" />
+            <element signature="method#start#0;class#FirstTest#0" expanded="false" />
+            <element signature="e#8848#8856#0" expanded="true" />
+            <marker date="1480445427890" expanded="false" signature="4327:7622" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1244,9 +1251,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5006#5014#0" expanded="true" />
-            <element signature="e#5124#5133#0" expanded="true" />
-            <element signature="e#6560#6568#0" expanded="true" />
+            <element signature="method#start#0;class#FirstTest#0" expanded="false" />
+            <element signature="e#8848#8856#0" expanded="true" />
+            <marker date="1480445427890" expanded="false" signature="4327:7622" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1338,13 +1345,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="140" column="100" lean-forward="false" selection-start-line="140" selection-start-column="100" selection-end-line="140" selection-end-column="100" />
+        <state relative-caret-position="475">
+          <caret line="174" column="51" lean-forward="true" selection-start-line="174" selection-start-column="51" selection-end-line="174" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5006#5014#0" expanded="true" />
-            <element signature="e#5124#5133#0" expanded="true" />
-            <element signature="e#6560#6568#0" expanded="true" />
+            <element signature="method#start#0;class#FirstTest#0" expanded="false" />
+            <element signature="e#8848#8856#0" expanded="true" />
+            <marker date="1480445427890" expanded="false" signature="4327:7622" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -35,7 +35,7 @@
         driver = new FirefoxDriver(caps);
         tlDriver.set(driver);
         //System.out.println(((HasCapabilities) driver).getCapabilities());
-        wait = new WebDriverWait(driver, 10);
+        wait = new WebDriverWait(driver, 60);
 
         Runtime.getRuntime().addShutdownHook(
                 new Thread(() -> { driver.quit(); driver = null; }));
@@ -97,7 +97,7 @@
             Assert.assertTrue(stickers.size()==1);
         }
     }*/
-    @Test
+/*  @Test
     public void Test9() {
         driver.navigate().to("http://localhost/litecart/admin/?app=countries&doc=countries");
         driver.findElement(By.name("username")).sendKeys("admin");
@@ -150,7 +150,42 @@
             }
         }
     }
-    @After
+*/
+   @Test
+    public void Test9_2() {
+        driver.navigate().to("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
+        driver.findElement(By.name("username")).sendKeys("admin");
+        driver.findElement(By.name("password")).sendKeys("admin");
+        driver.findElement(By.name("login")).click();
+        wait.until(visibilityOfElementLocated((By.cssSelector("table[class='dataTable']"))));
+        //Список веб элементов стран
+        List<WebElement> Countries = driver.findElements(By.cssSelector(".row>td>a:not([title='Edit'])"));
+        int countrySize = Countries.size();
+        for(int i=0; i<countrySize; i++){
+                String countryName = Countries.get(i).getAttribute("textContent");
+                Countries.get(i).click();
+                wait.until(visibilityOfElementLocated((By.cssSelector("table[id='table-zones']"))));
+                String selector = driver.findElement(By.cssSelector(".select2-hidden-accessible>option[selected='selected']")).getAttribute("value");
+                List<WebElement> ZonesNames = driver.findElements(By.cssSelector("option[selected='selected']:not([value='" + selector + "'])"));
+                List<String> ZoneNameList = new ArrayList<String>();
+                for (WebElement ZonesName: ZonesNames) {
+                    ZoneNameList.add(ZonesName.getAttribute("textContent"));
+                }
+                Collections.sort(ZoneNameList);
+                int zonesize = ZoneNameList.size();
+                // Пробегаемся по спискам и сравниваем сортированный список зон с веб элементами зон
+                for(int j=0; j<zonesize; j++) {
+                    System.out.println(ZoneNameList.get(j) + " - " + ZonesNames.get(j).getAttribute("textContent"));
+                    Assert.assertTrue(ZoneNameList.get(j).equals(ZonesNames.get(j).getAttribute("textContent")));
+                }
+                // Проверили страну с зонами больше 0 и возвращаемся обратно к странам
+                driver.navigate().to("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
+                wait.until(visibilityOfElementLocated((By.cssSelector("table[class='dataTable']"))));
+                Countries = driver.findElements(By.cssSelector(".row>td>a:not([title='Edit'])"));
+        }
+    }
+
+            @After
     public void stop() {
         //driver.quit();
         //driver = null;
