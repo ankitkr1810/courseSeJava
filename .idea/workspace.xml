@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2befc5b6-ac30-4f3f-a487-a173e5a3947f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/classes/ru.sd.tests.seljava.FirstTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/classes/ru.sd.tests.seljava.FirstTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/packages/ru.sd.tests.seljava.html" afterPath="$PROJECT_DIR$/build/reports/tests/packages/ru.sd.tests.seljava.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/TEST-ru.sd.tests.seljava.FirstTest.xml" afterPath="$PROJECT_DIR$/build/test-results/TEST-ru.sd.tests.seljava.FirstTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java" />
     </list>
     <ignored path="courseSeJava.iws" />
@@ -151,7 +139,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="60">
               <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
@@ -161,11 +149,13 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="119" column="12" lean-forward="false" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
+            <state relative-caret-position="361">
+              <caret line="140" column="100" lean-forward="false" selection-start-line="140" selection-start-column="100" selection-end-line="140" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5030#5038#0" expanded="true" />
+                <element signature="e#5006#5014#0" expanded="true" />
+                <element signature="e#5124#5133#0" expanded="true" />
+                <element signature="e#6560#6568#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -677,7 +667,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
   <component name="RunManager" selected="JUnit.FirstTest">
     <configuration default="false" name="courseSeJava [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -945,13 +935,17 @@
       <option name="project" value="LOCAL" />
       <updated>1480272089433</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="countries">
+      <created>1480361037730</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1480361037730</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2016.11.28 at 23h 55m 46s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstTest - 2016.11.29 at 00h 15m 53s.xml">
       <configuration name="FirstTest" configurationId="JUnit" />
     </history-entry>
@@ -967,17 +961,20 @@
     <history-entry file="FirstTest - 2016.11.29 at 00h 23m 08s.xml">
       <configuration name="FirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="courseSeJava_[test] - 2016.11.27 at 23h 40m 43s.xml">
-      <configuration name="courseSeJava [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="FirstTest - 2016.11.29 at 21h 09m 52s.xml">
+      <configuration name="FirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="courseSeJava_[test] - 2016.11.28 at 23h 53m 50s.xml">
-      <configuration name="courseSeJava [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="FirstTest - 2016.11.29 at 21h 11m 21s.xml">
+      <configuration name="FirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="courseSeJava_[test] - 2016.11.28 at 23h 54m 07s.xml">
-      <configuration name="courseSeJava [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="FirstTest - 2016.11.29 at 22h 34m 07s.xml">
+      <configuration name="FirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="courseSeJava_[test] - 2016.11.28 at 23h 54m 54s.xml">
-      <configuration name="courseSeJava [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="FirstTest - 2016.11.29 at 22h 36m 56s.xml">
+      <configuration name="FirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest - 2016.11.29 at 22h 41m 54s.xml">
+      <configuration name="FirstTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -994,15 +991,15 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.4946695" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.4946695" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.50208336" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5053305" order="2" side_tool="true" content_ui="tabs" x="0" y="353" width="1920" height="334" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5053305" order="2" side_tool="true" content_ui="tabs" x="993" y="31" width="926" height="1008" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14552239" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.120469086" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1076759" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24726477" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1391258" sideWeight="0.5056543" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934355" sideWeight="0.4871795" order="3" side_tool="false" content_ui="tabs" />
@@ -1051,7 +1048,8 @@
     <MESSAGE value="sel 3.0 first test" />
     <MESSAGE value="login test" />
     <MESSAGE value="stickers &amp; Ducks" />
-    <option name="LAST_COMMIT_MESSAGE" value="stickers &amp; Ducks" />
+    <MESSAGE value="countries" />
+    <option name="LAST_COMMIT_MESSAGE" value="countries" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1078,7 +1076,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5030#5038#0" expanded="true" />
+            <element signature="e#5006#5014#0" expanded="true" />
+            <element signature="e#5124#5133#0" expanded="true" />
+            <element signature="e#6560#6568#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1097,7 +1097,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5030#5038#0" expanded="true" />
+            <element signature="e#5006#5014#0" expanded="true" />
+            <element signature="e#5124#5133#0" expanded="true" />
+            <element signature="e#6560#6568#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1116,7 +1118,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5030#5038#0" expanded="true" />
+            <element signature="e#5006#5014#0" expanded="true" />
+            <element signature="e#5124#5133#0" expanded="true" />
+            <element signature="e#6560#6568#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1135,7 +1139,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5030#5038#0" expanded="true" />
+            <element signature="e#5006#5014#0" expanded="true" />
+            <element signature="e#5124#5133#0" expanded="true" />
+            <element signature="e#6560#6568#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1154,7 +1160,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5030#5038#0" expanded="true" />
+            <element signature="e#5006#5014#0" expanded="true" />
+            <element signature="e#5124#5133#0" expanded="true" />
+            <element signature="e#6560#6568#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1173,7 +1181,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5030#5038#0" expanded="true" />
+            <element signature="e#5006#5014#0" expanded="true" />
+            <element signature="e#5124#5133#0" expanded="true" />
+            <element signature="e#6560#6568#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1192,7 +1202,9 @@
           <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5030#5038#0" expanded="true" />
+            <element signature="e#5006#5014#0" expanded="true" />
+            <element signature="e#5124#5133#0" expanded="true" />
+            <element signature="e#6560#6568#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1211,7 +1223,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5030#5038#0" expanded="true" />
+            <element signature="e#5006#5014#0" expanded="true" />
+            <element signature="e#5124#5133#0" expanded="true" />
+            <element signature="e#6560#6568#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1230,7 +1244,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5030#5038#0" expanded="true" />
+            <element signature="e#5006#5014#0" expanded="true" />
+            <element signature="e#5124#5133#0" expanded="true" />
+            <element signature="e#6560#6568#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1314,7 +1330,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="60">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
@@ -1322,11 +1338,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="119" column="12" lean-forward="false" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
+        <state relative-caret-position="361">
+          <caret line="140" column="100" lean-forward="false" selection-start-line="140" selection-start-column="100" selection-end-line="140" selection-end-column="100" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5030#5038#0" expanded="true" />
+            <element signature="e#5006#5014#0" expanded="true" />
+            <element signature="e#5124#5133#0" expanded="true" />
+            <element signature="e#6560#6568#0" expanded="true" />
           </folding>
         </state>
       </provider>

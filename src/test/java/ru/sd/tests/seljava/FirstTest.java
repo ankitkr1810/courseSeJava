@@ -1,12 +1,10 @@
         package ru.sd.tests.seljava;
 
-        import org.apache.commons.lang3.text.WordUtils;
         import org.junit.After;
         import org.junit.Assert;
         import org.junit.Before;
         import org.junit.Test;
         import org.openqa.selenium.By;
-        import org.openqa.selenium.HasCapabilities;
         import org.openqa.selenium.WebDriver;
         import org.openqa.selenium.WebElement;
         import org.openqa.selenium.firefox.FirefoxDriver;
@@ -36,7 +34,7 @@
         caps.setCapability(FirefoxDriver.MARIONETTE, true);
         driver = new FirefoxDriver(caps);
         tlDriver.set(driver);
-        System.out.println(((HasCapabilities) driver).getCapabilities());
+        //System.out.println(((HasCapabilities) driver).getCapabilities());
         wait = new WebDriverWait(driver, 10);
 
         Runtime.getRuntime().addShutdownHook(
@@ -106,19 +104,50 @@
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).click();
         wait.until(visibilityOfElementLocated((By.cssSelector("table[class='dataTable']"))));
+        //Список веб элементов стран
         List<WebElement> Countries = driver.findElements(By.cssSelector(".row>td>a:not([title='Edit'])"));
-        System.out.println("Countries: " + Countries.size());
+        //System.out.println("Countries: " + Countries.size());
+        // Список строковый для сортировки
         List<String> CountriesList = new ArrayList<String>();
+        // Список из количеств зон для каждой из стран
+        ArrayList<Integer> ZoneList = new ArrayList<Integer>();
+        int z=2;
+        // Заполняем списки названий и количеств зон
         for(WebElement Countrie: Countries){
-            //System.out.println(Countrie.getAttribute("textContent"));
+            WebElement zones = driver.findElement(By.xpath(".//*[@id='content']/form/table/tbody/tr["+z+"]/td[6]"));
+            z++;
+            int zoneCount = Integer.parseInt(zones.getAttribute("textContent"));
+            //System.out.println(Countrie.getAttribute("textContent") +" - "+ zoneCount);
             CountriesList.add(Countrie.getAttribute("textContent"));
-            //Assert.assertTrue(stickers.size()==1);
+            ZoneList.add(zoneCount);
         }
         Collections.sort(CountriesList);
         int size = CountriesList.size();
+        // Пробегаемся по спискам и сравниваем сортированный с веб элементами
         for(int i=0; i<size; i++){
             System.out.println(CountriesList.get(i) + " - " + Countries.get(i).getAttribute("textContent"));
             Assert.assertTrue(CountriesList.get(i).equals(Countries.get(i).getAttribute("textContent")));
+            // Если зон больше 0 то аналогично сохраняем в список, сортируем и сравниваем
+            if (ZoneList.get(i) > 0) {
+                Countries.get(i).click();
+                wait.until(visibilityOfElementLocated((By.cssSelector("table[id='table-zones']"))));
+                List<WebElement> ZonesNames = driver.findElements(By.cssSelector("#table-zones>tbody>tr>td>input[name*='[name]'][type='hidden']"));
+                List<String> ZoneNameList = new ArrayList<String>();
+                for (WebElement ZonesName: ZonesNames) {
+                    ZoneNameList.add(ZonesName.getAttribute("value"));
+                }
+                Collections.sort(ZoneNameList);
+                int zonesize = ZoneNameList.size();
+                // Пробегаемся по спискам и сравниваем сортированный список зон с веб элементами зон
+                for(int j=0; j<zonesize; j++) {
+                    System.out.println(ZoneNameList.get(j) + " - " + ZonesNames.get(j).getAttribute("value"));
+                    Assert.assertTrue(ZoneNameList.get(j).equals(ZonesNames.get(j).getAttribute("value")));
+                }
+                // Проверили страну с зонами больше 0 и возвращаемся обратно к странам
+                driver.navigate().to("http://localhost/litecart/admin/?app=countries&doc=countries");
+                wait.until(visibilityOfElementLocated((By.cssSelector("table[class='dataTable']"))));
+                Countries = driver.findElements(By.cssSelector(".row>td>a:not([title='Edit'])"));
+            }
         }
     }
     @After
