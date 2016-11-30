@@ -96,8 +96,8 @@
             System.out.println("Duck: " + Duck + " found stickers: " + stickers.size());
             Assert.assertTrue(stickers.size()==1);
         }
-    }*/
-/*  @Test
+    }
+  @Test
     public void Test9() {
         driver.navigate().to("http://localhost/litecart/admin/?app=countries&doc=countries");
         driver.findElement(By.name("username")).sendKeys("admin");
@@ -150,7 +150,7 @@
             }
         }
     }
-*/
+
    @Test
     public void Test9_2() {
         driver.navigate().to("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
@@ -184,8 +184,58 @@
                 Countries = driver.findElements(By.cssSelector(".row>td>a:not([title='Edit'])"));
         }
     }
+*/
 
-            @After
+            @Test
+            public void Test10() {
+                driver.navigate().to("http://localhost/litecart/");
+                wait.until(visibilityOfElementLocated(By.id("box-logotypes")));
+                // All Ducks in Campaigns
+                List<WebElement> Ducks = driver.findElements(By.xpath("//h3[text()='Campaigns']/..//a[contains(@title,'Duck') and @class='link']"));
+                for (WebElement Duck: Ducks) {
+                    WebElement weRegularPrice = Duck.findElement(By.xpath("//div/s"));
+                    String regularPrice = weRegularPrice.getAttribute("textContent");
+                    WebElement weCampaingPrice = Duck.findElement(By.xpath("//div/strong"));
+                    String campaingPrice = weCampaingPrice.getAttribute("textContent");
+                    String name = Duck.getAttribute("title");
+                    String manufacturer = Duck.findElement(By.xpath("//div[@class='manufacturer']")).getAttribute("textContent");
+                    String campaingPriceColor = weCampaingPrice.getCssValue("color");
+                    String regularPriceColor = weRegularPrice.getCssValue("color");
+                    String regularPriceSize = weRegularPrice.getCssValue("font-size");
+                    String campaingPriceSize = weCampaingPrice.getCssValue("font-size");
+                    String regularPriceWeight = weRegularPrice.getCssValue("font-weight");
+                    String campaingPriceWeight = weCampaingPrice.getCssValue("font-weight");
+                    String regularPriceDecoration = weRegularPrice.getCssValue("text-decoration");
+                    //System.out.println(name + ", "+ manufacturer + ": " + regularPrice + " - " + campaingPrice);
+                    //System.out.println("CampaingPriceColor: " + campaingPriceColor);
+                    System.out.println("CampaingPriceSize: " + campaingPriceSize);
+                    System.out.println("CampaingPriceWeight: " + campaingPriceWeight);
+                    System.out.println("RegularPriceColor: " + regularPriceColor);
+                    System.out.println("RegularPriceSize: " + regularPriceSize);
+                    //System.out.println("RegularPriceWeight: " + regularPriceWeight);
+                    //System.out.println("RegularPriceDecoration: " + regularPriceDecoration);
+                    Duck.click();
+                    wait.until(visibilityOfElementLocated(By.id("box-similar-products")));
+                    //System.out.println(driver.findElement(By.xpath(".//*[@id='box-product']/div/h1[@itemprop='name']")).getAttribute("textContent"));
+                    Assert.assertTrue(name.equals(driver.findElement(By.xpath(".//*[@id='box-product']/div/h1[@itemprop='name']")).getAttribute("textContent")));
+                    WebElement weCampaingPrice2 = driver.findElement(By.xpath(".//*[@itemprop='price']"));
+                    WebElement weRegularPrice2 = driver.findElement(By.xpath(".//s[@class='regular-price']"));
+                    Assert.assertTrue(regularPrice.equals(weRegularPrice2.getAttribute("textContent")));
+                    Assert.assertTrue(campaingPrice.equals(weCampaingPrice2.getAttribute("textContent")));
+                    System.out.println(weRegularPrice2.getCssValue("color"));
+                    //Assert.assertTrue(regularPriceColor.equals(weRegularPrice2.getCssValue("color")));
+                    System.out.println(weRegularPrice2.getCssValue("font-size"));
+                    //Assert.assertTrue(regularPriceSize.equals(weRegularPrice2.getCssValue("font-size")));
+                    Assert.assertTrue(regularPriceWeight.equals(weRegularPrice2.getCssValue("font-weight")));
+                    Assert.assertTrue(regularPriceDecoration.equals(weRegularPrice2.getCssValue("text-decoration")));
+                    System.out.println(weCampaingPrice2.getCssValue("font-size"));
+                    //Assert.assertTrue(campaingPriceSize.equals(weCampaingPrice2.getCssValue("font-size")));
+                    System.out.println(weCampaingPrice2.getCssValue("font-weight"));
+                    //Assert.assertTrue(campaingPriceWeight.equals(weCampaingPrice2.getCssValue("font-weight")));
+                    Assert.assertTrue(campaingPriceColor.equals(weCampaingPrice2.getCssValue("color")));
+                }
+            }
+    @After
     public void stop() {
         //driver.quit();
         //driver = null;
