@@ -9,6 +9,7 @@
         import org.openqa.selenium.WebElement;
         import org.openqa.selenium.firefox.FirefoxDriver;
         import org.openqa.selenium.remote.DesiredCapabilities;
+        import org.openqa.selenium.support.ui.Select;
         import org.openqa.selenium.support.ui.WebDriverWait;
 
         import java.util.ArrayList;
@@ -40,8 +41,8 @@
         Runtime.getRuntime().addShutdownHook(
                 new Thread(() -> { driver.quit(); driver = null; }));
     }
-
-/*    @Test
+/*
+    @Test
     public void myFirstTest() {
         driver.navigate().to("http://localhost/litecart/admin/");
         driver.findElement(By.name("username")).sendKeys("admin");
@@ -184,7 +185,6 @@
                 Countries = driver.findElements(By.cssSelector(".row>td>a:not([title='Edit'])"));
         }
     }
-*/
 
             @Test
             public void Test10() {
@@ -235,6 +235,39 @@
                     Assert.assertTrue(campaingPriceColor.equals(weCampaingPrice2.getCssValue("color")));
                 }
             }
+*/
+    @Test // Customer Login
+    public void Test11() {
+        driver.navigate().to("http://localhost/litecart/");
+        wait.until(visibilityOfElementLocated(By.id("box-logotypes")));
+        driver.findElement(By.xpath(".//*[@id='box-account-login']/div/form/table/tbody//a")).click();
+        wait.until(visibilityOfElementLocated(By.id("create-account")));
+        // Create
+        String firstName = "mr.First";
+        String lastName = "mr.Last";
+        String password = "^9#8d7%6.2Y";
+        driver.findElement(By.cssSelector("input[name='firstname']")).sendKeys(firstName);
+        driver.findElement(By.cssSelector("input[name='lastname']")).sendKeys(lastName);
+        driver.findElement(By.cssSelector("input[name='address1']")).sendKeys("Krivolapova st.");
+        driver.findElement(By.cssSelector("input[name='postcode']")).sendKeys("640000");
+        driver.findElement(By.cssSelector("input[name='city']")).sendKeys("Kurgan");
+        String email = "e" + java.util.UUID.randomUUID().toString().substring(0,7) + "@mail.com";
+        driver.findElement(By.cssSelector("input[name='email']")).sendKeys(email);
+        driver.findElement(By.cssSelector("input[name='phone']")).sendKeys("+79128220000");
+        driver.findElement(By.cssSelector("input[name='password']")).sendKeys(password);
+        driver.findElement(By.cssSelector("input[name='confirmed_password']")).sendKeys(password);
+        //Login
+        driver.findElement(By.name("create_account")).click();
+        wait.until(visibilityOfElementLocated(By.id("box-account")));
+        //Logout
+        driver.findElement(By.xpath(".//*[@id='box-account']/div/ul/li[4]/a")).click();
+        wait.until(visibilityOfElementLocated(By.xpath(".//button[@name='login']")));
+        //New Login
+        driver.findElement(By.cssSelector("input[name='email']")).sendKeys(email);
+        driver.findElement(By.cssSelector("input[name='password']")).sendKeys(password);
+        driver.findElement(By.name("login")).click();
+        wait.until(visibilityOfElementLocated(By.id("box-account")));
+    }
     @After
     public void stop() {
         //driver.quit();
