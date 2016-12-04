@@ -5,6 +5,7 @@
         import org.junit.Before;
         import org.junit.Test;
         import org.openqa.selenium.By;
+        import org.openqa.selenium.Keys;
         import org.openqa.selenium.WebDriver;
         import org.openqa.selenium.WebElement;
         import org.openqa.selenium.firefox.FirefoxDriver;
@@ -98,7 +99,7 @@
             Assert.assertTrue(stickers.size()==1);
         }
     }
-  @Test
+    @Test
     public void Test9() {
         driver.navigate().to("http://localhost/litecart/admin/?app=countries&doc=countries");
         driver.findElement(By.name("username")).sendKeys("admin");
@@ -151,8 +152,7 @@
             }
         }
     }
-
-   @Test
+    @Test
     public void Test9_2() {
         driver.navigate().to("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
         driver.findElement(By.name("username")).sendKeys("admin");
@@ -185,9 +185,8 @@
                 Countries = driver.findElements(By.cssSelector(".row>td>a:not([title='Edit'])"));
         }
     }
-
-            @Test
-            public void Test10() {
+    @Test
+    public void Test10() {
                 driver.navigate().to("http://localhost/litecart/");
                 wait.until(visibilityOfElementLocated(By.id("box-logotypes")));
                 // All Ducks in Campaigns
@@ -235,7 +234,6 @@
                     Assert.assertTrue(campaingPriceColor.equals(weCampaingPrice2.getCssValue("color")));
                 }
             }
-*/
     @Test // Customer Login
     public void Test11() {
         driver.navigate().to("http://localhost/litecart/");
@@ -267,6 +265,57 @@
         driver.findElement(By.cssSelector("input[name='password']")).sendKeys(password);
         driver.findElement(By.name("login")).click();
         wait.until(visibilityOfElementLocated(By.id("box-account")));
+    }
+*/
+    @Test
+    public void Test12() {
+        driver.navigate().to("http://localhost/litecart/admin/");
+        driver.findElement(By.name("username")).sendKeys("admin");
+        driver.findElement(By.name("password")).sendKeys("admin");
+        driver.findElement(By.name("login")).click();
+        wait.until(visibilityOfElementLocated(By.id("sidebar")));
+        //Catalog menu
+        driver.findElement(By.xpath(".//*[@id='app-']/a/span[contains(text(),'Catalog')]")).click();
+        wait.until(visibilityOfAllElementsLocatedBy(By.xpath(".//*[@id='content']/h1[contains(text(),'Catalog')]")));
+        //Add new product
+        driver.findElement(By.xpath(".//*[@id='content']/div[1]/a[contains(text(),'Add New Product')]")).click();
+        //General tab
+        wait.until(visibilityOfAllElementsLocatedBy(By.xpath(".//*[@id='content']/h1[contains(text(),'Add New Product')]")));
+        driver.findElement(By.xpath(".//*[@id='tab-general']/table/tbody//input[@name='status' and @value='1']")).click();
+        driver.findElement(By.xpath(".//input[@name='name[en]']")).sendKeys("The New Brave Duck!");
+        driver.findElement(By.xpath(".//input[@name='code']")).sendKeys("Duckman 47");
+        driver.findElement(By.xpath(".//input[@name='categories[]' and @data-name='Rubber Ducks']")).click();
+        driver.findElement(By.xpath(".//input[@name='quantity']")).sendKeys(Keys.chord(Keys.CONTROL, "a"));
+        driver.findElement(By.xpath(".//input[@name='quantity']")).sendKeys("47");
+        Select soldOut = new Select(driver.findElement(By.xpath(".//select[@name='sold_out_status_id']")));
+        soldOut.selectByValue("2");
+        driver.findElement(By.xpath(".//input[@name='date_valid_from']")).sendKeys("2016-12-03");
+        driver.findElement(By.xpath(".//input[@name='date_valid_to']")).sendKeys("2016-12-31");
+        driver.findElement(By.xpath(".//input[@name='new_images[]']")).sendKeys("e:\\duck.jpg");
+        //Information tab
+        driver.findElement(By.xpath(".//*[@id='content']/form/div/ul/li//a[@href='#tab-information']")).click();
+        wait.until(visibilityOfAllElementsLocatedBy(By.xpath(".//div[@class='trumbowyg-editor']")));
+        Select manufacturer = new Select(driver.findElement(By.name("manufacturer_id")));
+        manufacturer.selectByValue("1");
+        driver.findElement(By.xpath(".//input[@name='keywords']")).sendKeys("new duck");
+        driver.findElement(By.xpath(".//input[@name='short_description[en]']")).sendKeys("The Brave New Duck and Co.");
+        driver.findElement(By.xpath(".//div[@class='trumbowyg-editor']")).sendKeys("Each of the ducklings hatched from eggs wants to be one of the bravest duck");
+        driver.findElement(By.xpath(".//input[@name='head_title[en]']")).sendKeys("Head title duck");
+        driver.findElement(By.xpath(".//input[@name='meta_description[en]']")).sendKeys("Meta description duck");
+        //Prices
+        driver.findElement(By.xpath(".//*[@id='content']/form/div/ul/li//a[@href='#tab-prices']")).click();
+        wait.until(visibilityOfAllElementsLocatedBy(By.xpath(".//div[@id='tab-prices']")));
+        driver.findElement(By.xpath(".//input[@name='purchase_price']")).sendKeys(Keys.chord(Keys.CONTROL,"a"));
+        driver.findElement(By.xpath(".//input[@name='purchase_price']")).sendKeys("25");
+        Select purchase_price = new Select(driver.findElement(By.name("purchase_price_currency_code")));
+        purchase_price.selectByValue("USD");
+        driver.findElement(By.xpath(".//input[@name='prices[USD]']")).sendKeys(Keys.chord(Keys.CONTROL,"a"));
+        driver.findElement(By.xpath(".//input[@name='prices[USD]']")).sendKeys("35");
+        //Save and check
+        driver.findElement(By.xpath(".//button[@name='save']")).click();
+        driver.findElement(By.xpath(".//*[@id='doc-catalog']")).click();
+        wait.until(visibilityOfAllElementsLocatedBy(By.xpath(".//*[@id='content']/form/table/tbody//a[contains(text(),'The New Brave Duck!')]")));
+        Assert.assertTrue(driver.findElements(By.xpath(".//*[@id='content']/form/table/tbody//a[contains(text(),'The New Brave Duck!')]")).size() > 0);
     }
     @After
     public void stop() {
