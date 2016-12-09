@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2befc5b6-ac30-4f3f-a487-a173e5a3947f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test13.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test14.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="courseSeJava.iws" />
@@ -149,8 +149,8 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="239" selection-end-column="71" />
+            <state relative-caret-position="239">
+              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="107" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#start#0;class#FirstTest#0" expanded="false" />
@@ -158,7 +158,7 @@
                 <marker date="1480833040483" expanded="false" signature="1601:1928" ph="{...}" />
                 <marker date="1480833040483" expanded="false" signature="1970:3769" ph="{...}" />
                 <marker date="1480833040483" expanded="false" signature="3804:4385" ph="{...}" />
-                <marker date="1480833040483" expanded="false" signature="4420:7715" ph="{...}" />
+                <marker date="1480833040483" expanded="true" signature="4420:7715" ph="{...}" />
                 <marker date="1480833040483" expanded="false" signature="7752:10005" ph="{...}" />
                 <marker date="1480833040483" expanded="false" signature="10041:14320" ph="{...}" />
               </folding>
@@ -166,14 +166,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test13.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test13.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+            <state relative-caret-position="817">
+              <caret line="98" column="5" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="98" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#start#0;class#Test13#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test14.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test14.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <folding>
+                <element signature="method#start#0;class#Test14#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -590,13 +602,13 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test13.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test14.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -614,26 +626,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="courseSeJava">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="courseSeJava">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -706,6 +698,26 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="courseSeJava">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="courseSeJava">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -714,7 +726,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
-  <component name="RunManager" selected="JUnit.Test13">
+  <component name="RunManager" selected="JUnit.Test14">
     <configuration default="false" name="courseSeJava [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -751,24 +763,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="false" name="courseSeJava [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
     <configuration default="false" name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="courseSeJava_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -795,6 +789,26 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.sd.tests.seljava" />
       <option name="MAIN_CLASS_NAME" value="ru.sd.tests.seljava.Test13" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="courseSeJava_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.sd.tests.seljava" />
+      <option name="MAIN_CLASS_NAME" value="ru.sd.tests.seljava.Test14" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -920,17 +934,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Gradle.courseSeJava [test]" />
       <item index="1" class="java.lang.String" itemvalue="Gradle.courseSeJava [testClasses]" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.courseSeJava [build]" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FirstTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Test13" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FirstTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Test13" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Test14" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Test13" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FirstTest" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.courseSeJava [test]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.courseSeJava [testClasses]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.courseSeJava [build]" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Test14" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Test13" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FirstTest" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.courseSeJava [test]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.courseSeJava [testClasses]" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -1024,39 +1038,46 @@
       <option name="project" value="LOCAL" />
       <updated>1480833067432</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Home work13">
+      <created>1481224100631</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1481224100631</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2016.12.04 at 11h 28m 06s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest - 2016.12.04 at 11h 30m 04s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest - 2016.12.08 at 23h 27m 40s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test13 - 2016.12.08 at 23h 28m 16s.xml">
+    <history-entry file="Test13 - 2016.12.09 at 23h 29m 42s.xml">
       <configuration name="Test13" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test13 - 2016.12.08 at 23h 29m 21s.xml">
-      <configuration name="Test13" configurationId="JUnit" />
+    <history-entry file="Test14 - 2016.12.09 at 23h 30m 09s.xml">
+      <configuration name="Test14" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test13 - 2016.12.08 at 23h 30m 37s.xml">
-      <configuration name="Test13" configurationId="JUnit" />
+    <history-entry file="Test14 - 2016.12.09 at 23h 35m 17s.xml">
+      <configuration name="Test14" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test13 - 2016.12.08 at 23h 44m 13s.xml">
-      <configuration name="Test13" configurationId="JUnit" />
+    <history-entry file="Test14 - 2016.12.09 at 23h 37m 20s.xml">
+      <configuration name="Test14" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test13 - 2016.12.08 at 23h 46m 09s.xml">
-      <configuration name="Test13" configurationId="JUnit" />
+    <history-entry file="Test14 - 2016.12.09 at 23h 40m 32s.xml">
+      <configuration name="Test14" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test13 - 2016.12.09 at 00h 02m 00s.xml">
-      <configuration name="Test13" configurationId="JUnit" />
+    <history-entry file="Test14 - 2016.12.09 at 23h 46m 22s.xml">
+      <configuration name="Test14" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test13 - 2016.12.09 at 00h 04m 02s.xml">
-      <configuration name="Test13" configurationId="JUnit" />
+    <history-entry file="Test14 - 2016.12.09 at 23h 49m 45s.xml">
+      <configuration name="Test14" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test14 - 2016.12.09 at 23h 58m 21s.xml">
+      <configuration name="Test14" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test14 - 2016.12.10 at 00h 01m 18s.xml">
+      <configuration name="Test14" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test14 - 2016.12.10 at 00h 06m 09s.xml">
+      <configuration name="Test14" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1069,7 +1090,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="6" side_tool="false" content_ui="tabs" />
@@ -1080,7 +1101,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5053305" order="2" side_tool="true" content_ui="tabs" x="1088" y="31" width="824" height="969" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1076759" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10844017" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24726477" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1391258" sideWeight="0.5056543" order="3" side_tool="true" content_ui="tabs" />
@@ -1135,11 +1156,12 @@
     <MESSAGE value="Home work10" />
     <MESSAGE value="Home work11 Create customer + Login" />
     <MESSAGE value="Home work12 The new brave duck" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home work12 The new brave duck" />
+    <MESSAGE value="Home work13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home work13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GradleRunConfiguration">
@@ -1148,6 +1170,43 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4284">
+          <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="239" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#start#0;class#FirstTest#0" expanded="false" />
+            <element signature="method#Test12#0;class#FirstTest#0" expanded="false" />
+            <marker date="1480833040483" expanded="false" signature="1601:1928" ph="{...}" />
+            <marker date="1480833040483" expanded="false" signature="1970:3769" ph="{...}" />
+            <marker date="1480833040483" expanded="false" signature="3804:4385" ph="{...}" />
+            <marker date="1480833040483" expanded="true" signature="4420:7715" ph="{...}" />
+            <marker date="1480833040483" expanded="false" signature="7752:10005" ph="{...}" />
+            <marker date="1480833040483" expanded="false" signature="10041:14320" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#start#0;class#Test13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1167,7 +1226,7 @@
             <marker date="1480833040483" expanded="false" signature="1601:1928" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="1970:3769" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="3804:4385" ph="{...}" />
-            <marker date="1480833040483" expanded="false" signature="4420:7715" ph="{...}" />
+            <marker date="1480833040483" expanded="true" signature="4420:7715" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="7752:10005" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="10041:14320" ph="{...}" />
           </folding>
@@ -1193,7 +1252,7 @@
             <marker date="1480833040483" expanded="false" signature="1601:1928" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="1970:3769" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="3804:4385" ph="{...}" />
-            <marker date="1480833040483" expanded="false" signature="4420:7715" ph="{...}" />
+            <marker date="1480833040483" expanded="true" signature="4420:7715" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="7752:10005" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="10041:14320" ph="{...}" />
           </folding>
@@ -1219,7 +1278,7 @@
             <marker date="1480833040483" expanded="false" signature="1601:1928" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="1970:3769" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="3804:4385" ph="{...}" />
-            <marker date="1480833040483" expanded="false" signature="4420:7715" ph="{...}" />
+            <marker date="1480833040483" expanded="true" signature="4420:7715" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="7752:10005" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="10041:14320" ph="{...}" />
           </folding>
@@ -1245,7 +1304,7 @@
             <marker date="1480833040483" expanded="false" signature="1601:1928" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="1970:3769" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="3804:4385" ph="{...}" />
-            <marker date="1480833040483" expanded="false" signature="4420:7715" ph="{...}" />
+            <marker date="1480833040483" expanded="true" signature="4420:7715" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="7752:10005" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="10041:14320" ph="{...}" />
           </folding>
@@ -1271,7 +1330,7 @@
             <marker date="1480833040483" expanded="false" signature="1601:1928" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="1970:3769" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="3804:4385" ph="{...}" />
-            <marker date="1480833040483" expanded="false" signature="4420:7715" ph="{...}" />
+            <marker date="1480833040483" expanded="true" signature="4420:7715" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="7752:10005" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="10041:14320" ph="{...}" />
           </folding>
@@ -1297,7 +1356,7 @@
             <marker date="1480833040483" expanded="false" signature="1601:1928" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="1970:3769" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="3804:4385" ph="{...}" />
-            <marker date="1480833040483" expanded="false" signature="4420:7715" ph="{...}" />
+            <marker date="1480833040483" expanded="true" signature="4420:7715" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="7752:10005" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="10041:14320" ph="{...}" />
           </folding>
@@ -1323,7 +1382,7 @@
             <marker date="1480833040483" expanded="false" signature="1601:1928" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="1970:3769" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="3804:4385" ph="{...}" />
-            <marker date="1480833040483" expanded="false" signature="4420:7715" ph="{...}" />
+            <marker date="1480833040483" expanded="true" signature="4420:7715" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="7752:10005" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="10041:14320" ph="{...}" />
           </folding>
@@ -1349,7 +1408,7 @@
             <marker date="1480833040483" expanded="false" signature="1601:1928" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="1970:3769" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="3804:4385" ph="{...}" />
-            <marker date="1480833040483" expanded="false" signature="4420:7715" ph="{...}" />
+            <marker date="1480833040483" expanded="true" signature="4420:7715" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="7752:10005" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="10041:14320" ph="{...}" />
           </folding>
@@ -1375,7 +1434,7 @@
             <marker date="1480833040483" expanded="false" signature="1601:1928" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="1970:3769" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="3804:4385" ph="{...}" />
-            <marker date="1480833040483" expanded="false" signature="4420:7715" ph="{...}" />
+            <marker date="1480833040483" expanded="true" signature="4420:7715" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="7752:10005" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="10041:14320" ph="{...}" />
           </folding>
@@ -1401,7 +1460,7 @@
             <marker date="1480833040483" expanded="false" signature="1601:1928" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="1970:3769" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="3804:4385" ph="{...}" />
-            <marker date="1480833040483" expanded="false" signature="4420:7715" ph="{...}" />
+            <marker date="1480833040483" expanded="true" signature="4420:7715" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="7752:10005" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="10041:14320" ph="{...}" />
           </folding>
@@ -1493,10 +1552,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="98" column="5" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="98" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#start#0;class#Test13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="239" selection-end-column="71" />
+        <state relative-caret-position="239">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="107" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#start#0;class#FirstTest#0" expanded="false" />
@@ -1504,20 +1574,19 @@
             <marker date="1480833040483" expanded="false" signature="1601:1928" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="1970:3769" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="3804:4385" ph="{...}" />
-            <marker date="1480833040483" expanded="false" signature="4420:7715" ph="{...}" />
+            <marker date="1480833040483" expanded="true" signature="4420:7715" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="7752:10005" ph="{...}" />
             <marker date="1480833040483" expanded="false" signature="10041:14320" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test13.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test14.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        <state relative-caret-position="144">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#Test13#0" expanded="false" />
+            <element signature="method#start#0;class#Test14#0" expanded="false" />
           </folding>
         </state>
       </provider>
