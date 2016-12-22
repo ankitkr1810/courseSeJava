@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2befc5b6-ac30-4f3f-a487-a173e5a3947f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test14.java" />
+    <list default="true" id="2befc5b6-ac30-4f3f-a487-a173e5a3947f" name="Default" comment="Home work14">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test17.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="courseSeJava.iws" />
@@ -146,46 +146,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java">
+      <file leaf-file-name="Test17.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test17.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="107" selection-end-column="93" />
+            <state relative-caret-position="628">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#start#0;class#FirstTest#0" expanded="false" />
-                <element signature="method#Test12#0;class#FirstTest#0" expanded="false" />
-                <marker date="1480833040483" expanded="false" signature="1601:1928" ph="{...}" />
-                <marker date="1480833040483" expanded="false" signature="1970:3769" ph="{...}" />
-                <marker date="1480833040483" expanded="false" signature="3804:4385" ph="{...}" />
-                <marker date="1480833040483" expanded="true" signature="4420:7715" ph="{...}" />
-                <marker date="1480833040483" expanded="false" signature="7752:10005" ph="{...}" />
-                <marker date="1480833040483" expanded="false" signature="10041:14320" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test13.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test13.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="98" column="5" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="98" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#start#0;class#Test13#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test14.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test14.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding>
-                <element signature="method#start#0;class#Test14#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -603,13 +570,14 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test13.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test14.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test17.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1932" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="1175" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -721,12 +689,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
-  <component name="RunManager" selected="JUnit.Test14">
+  <component name="RunManager" selected="JUnit.Test17">
     <configuration default="false" name="courseSeJava [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -739,24 +707,6 @@
         <option name="taskNames">
           <list>
             <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="false" name="courseSeJava [testClasses]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="testClasses" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -809,6 +759,26 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.sd.tests.seljava" />
       <option name="MAIN_CLASS_NAME" value="ru.sd.tests.seljava.Test14" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test17" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="courseSeJava_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.sd.tests.seljava" />
+      <option name="MAIN_CLASS_NAME" value="ru.sd.tests.seljava.Test17" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -933,18 +903,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Gradle.courseSeJava [test]" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.courseSeJava [testClasses]" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FirstTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Test13" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Test14" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FirstTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Test13" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Test14" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Test17" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Test14" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Test13" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FirstTest" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.courseSeJava [test]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.courseSeJava [testClasses]" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Test17" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Test14" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Test13" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FirstTest" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.courseSeJava [test]" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -1045,39 +1015,46 @@
       <option name="project" value="LOCAL" />
       <updated>1481224100631</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Home work14">
+      <created>1481310389446</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1481310389446</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test13 - 2016.12.09 at 23h 29m 42s.xml">
-      <configuration name="Test13" configurationId="JUnit" />
+    <history-entry file="Test17 - 2016.12.22 at 21h 34m 48s.xml">
+      <configuration name="Test17" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test14 - 2016.12.09 at 23h 30m 09s.xml">
-      <configuration name="Test14" configurationId="JUnit" />
+    <history-entry file="Test17 - 2016.12.22 at 21h 43m 56s.xml">
+      <configuration name="Test17" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test14 - 2016.12.09 at 23h 35m 17s.xml">
-      <configuration name="Test14" configurationId="JUnit" />
+    <history-entry file="Test17 - 2016.12.22 at 21h 44m 36s.xml">
+      <configuration name="Test17" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test14 - 2016.12.09 at 23h 37m 20s.xml">
-      <configuration name="Test14" configurationId="JUnit" />
+    <history-entry file="Test17 - 2016.12.22 at 21h 45m 13s.xml">
+      <configuration name="Test17" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test14 - 2016.12.09 at 23h 40m 32s.xml">
-      <configuration name="Test14" configurationId="JUnit" />
+    <history-entry file="Test17 - 2016.12.22 at 21h 48m 35s.xml">
+      <configuration name="Test17" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test14 - 2016.12.09 at 23h 46m 22s.xml">
-      <configuration name="Test14" configurationId="JUnit" />
+    <history-entry file="Test17 - 2016.12.22 at 21h 49m 26s.xml">
+      <configuration name="Test17" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test14 - 2016.12.09 at 23h 49m 45s.xml">
-      <configuration name="Test14" configurationId="JUnit" />
+    <history-entry file="Test17 - 2016.12.22 at 21h 55m 06s.xml">
+      <configuration name="Test17" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test14 - 2016.12.09 at 23h 58m 21s.xml">
-      <configuration name="Test14" configurationId="JUnit" />
+    <history-entry file="Test17 - 2016.12.22 at 21h 57m 23s.xml">
+      <configuration name="Test17" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test14 - 2016.12.10 at 00h 01m 18s.xml">
-      <configuration name="Test14" configurationId="JUnit" />
+    <history-entry file="Test17 - 2016.12.22 at 21h 58m 22s.xml">
+      <configuration name="Test17" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test14 - 2016.12.10 at 00h 06m 09s.xml">
-      <configuration name="Test14" configurationId="JUnit" />
+    <history-entry file="Test17 - 2016.12.22 at 22h 00m 23s.xml">
+      <configuration name="Test17" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1090,18 +1067,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
+    <frame x="-7" y="0" width="1175" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.4946695" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32603937" sideWeight="0.4946695" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.50208336" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.49573562" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5053305" order="2" side_tool="true" content_ui="tabs" x="1088" y="31" width="824" height="969" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5053305" order="2" side_tool="true" content_ui="tabs" x="1162" y="31" width="757" height="1008" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10844017" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09686099" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24726477" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1391258" sideWeight="0.5056543" order="3" side_tool="true" content_ui="tabs" />
@@ -1157,7 +1134,8 @@
     <MESSAGE value="Home work11 Create customer + Login" />
     <MESSAGE value="Home work12 The new brave duck" />
     <MESSAGE value="Home work13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home work13" />
+    <MESSAGE value="Home work14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home work14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1201,7 +1179,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#start#0;class#Test13#0" expanded="false" />
           </folding>
         </state>
@@ -1474,13 +1452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.0.1/3a81188df361ddfbf48fe4050bcb9dfceb7af4ab/selenium-support-3.0.1-sources.jar!/org/openqa/selenium/support/ui/FluentWait.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-160">
@@ -1544,20 +1515,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test13.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
           <caret line="98" column="5" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="98" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#start#0;class#Test13#0" expanded="false" />
           </folding>
         </state>
@@ -1581,12 +1544,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test14.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="380">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="86" selection-end-column="9" />
           <folding>
-            <element signature="method#start#0;class#Test14#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/sd/tests/seljava/Test17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1634,7 +1623,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test|test|src</last-edited>
+          <last-edited>courseSeJava_test|courseSeJava</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
